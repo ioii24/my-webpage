@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)https://playful-bubblegum-757edb.netlify.app/ -->
-<html lang="en" data-qb-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,12 +19,12 @@
 
 
 	
-    <link rel="apple-touch-icon" href="https://playful-bubblegum-757edb.netlify.app/mobile_icon.ico">
-    <link rel="shortcut icon" href="https://playful-bubblegum-757edb.netlify.app/mobile_icon.ico">
-    <link rel="stylesheet" href="./index_files/junglesystem.css">
-    <link rel="stylesheet" href="./index_files/font_SJSejongGothic.css">
-    <link rel="stylesheet" href="./index_files/main.css">
-    <script src="./index_files/jquery.js"></script>
+    <link rel="apple-touch-icon" href="mobile_icon.ico" />
+    <link rel="shortcut icon" href="mobile_icon.ico" />
+    <link rel="stylesheet" href="junglesystem.css">
+    <link rel="stylesheet" href="font_SJSejongGothic.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery.js"></script>
 
     <title>정부24</title>
     
@@ -52,244 +52,11 @@
             }
         }
     </script>
-<style type="text/css">.lf-progress {
-  -webkit-appearance: none;
-  -moz-apperance: none;
-  width: 100%;
-  /* margin: 0 10px; */
-  height: 4px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-.lf-progress:focus {
-  outline: none;
-  border: none;
-}
-.lf-progress::-moz-range-track {
-  cursor: pointer;
-  background: none;
-  border: none;
-  outline: none;
-}
-.lf-progress::-webkit-slider-thumb {
-  -webkit-appearance: none !important;
-  height: 13px;
-  width: 13px;
-  border: 0;
-  border-radius: 50%;
-  background: #0fccce;
-  cursor: pointer;
-}
-.lf-progress::-moz-range-thumb {
-  -moz-appearance: none !important;
-  height: 13px;
-  width: 13px;
-  border: 0;
-  border-radius: 50%;
-  background: #0fccce;
-  cursor: pointer;
-}
-.lf-progress::-ms-track {
-  width: 100%;
-  height: 3px;
-  cursor: pointer;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-.lf-progress::-ms-fill-lower {
-  background: #ccc;
-  border-radius: 3px;
-}
-.lf-progress::-ms-fill-upper {
-  background: #ccc;
-  border-radius: 3px;
-}
-.lf-progress::-ms-thumb {
-  border: 0;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background: #0fccce;
-  cursor: pointer;
-}
-.lf-progress:focus::-ms-fill-lower {
-  background: #ccc;
-}
-.lf-progress:focus::-ms-fill-upper {
-  background: #ccc;
-}
-.lf-player-container :focus {
-  outline: 0;
-}
-.lf-popover {
-  position: relative;
-}
-
-.lf-popover-content {
-  display: inline-block;
-  position: absolute;
-  opacity: 1;
-  visibility: visible;
-  transform: translate(0, -10px);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
-}
-
-.lf-popover-content.hidden {
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(0, 0px);
-}
-
-.lf-player-btn-container {
-  display: flex;
-  align-items: center;
-}
-.lf-player-btn {
-  cursor: pointer;
-  fill: #999;
-  width: 14px;
-}
-
-.lf-player-btn.active {
-  fill: #555;
-}
-
-.lf-popover {
-  position: relative;
-}
-
-.lf-popover-content {
-  display: inline-block;
-  position: absolute;
-  background-color: #ffffff;
-  opacity: 1;
-
-  transform: translate(0, -10px);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
-  padding: 10px;
-}
-
-.lf-popover-content.hidden {
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(0, 0px);
-}
-
-.lf-arrow {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  bottom: -9px;
-  border-style: solid;
-  border-width: 10px 10px 0px 10px;
-}
-
-.lf-left-align,
-.lf-left-align .lfarrow {
-  left: 0;
-  right: unset;
-}
-
-.lf-right-align,
-.lf-right-align .lf-arrow {
-  right: 0;
-  left: unset;
-}
-
-.lf-text-input {
-  border: 1px #ccc solid;
-  border-radius: 5px;
-  padding: 3px;
-  width: 60px;
-  margin: 0;
-}
-
-.lf-color-picker {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 90px;
-}
-
-.lf-color-selectors {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.lf-color-component {
-  display: flex;
-  flex-direction: row;
-  font-size: 12px;
-  align-items: center;
-  justify-content: center;
-}
-
-.lf-color-component strong {
-  width: 40px;
-}
-
-.lf-color-component input[type='range'] {
-  margin: 0 0 0 10px;
-}
-
-.lf-color-component input[type='number'] {
-  width: 50px;
-  margin: 0 0 0 10px;
-}
-
-.lf-color-preview {
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 5px;
-}
-
-.lf-preview {
-  height: 60px;
-  width: 60px;
-}
-
-.lf-popover-snapshot {
-  width: 150px;
-}
-.lf-popover-snapshot h5 {
-  margin: 5px 0 10px 0;
-  font-size: 0.75rem;
-}
-.lf-popover-snapshot a {
-  display: block;
-  text-decoration: none;
-}
-.lf-popover-snapshot a:before {
-  content: '⥼';
-  margin-right: 5px;
-}
-.lf-popover-snapshot .lf-note {
-  display: block;
-  margin-top: 10px;
-  color: #999;
-}
-.lf-player-controls > div {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-.lf-player-controls > div:first-child {
-  margin-left: 0px;
-}
-.lf-player-controls > div:last-child {
-  margin-right: 0px;
-}
-</style></head>
+</head>
 
 
 
-<body style="overflow: auto;" data-new-gr-c-s-check-loaded="14.1235.0" data-gr-ext-installed="">
+<body style="overflow: auto;">
     <script>
         function showLoadingScreen() {
             const loadingScreen = document.createElement('div');
@@ -322,11 +89,11 @@
         showLoadingScreen();
 
         document.body.style.overflow = 'hidden';
-    </script><div style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: white; display: none; justify-content: center; align-items: center; z-index: 9999;"><img src="./index_files/mobile_icon.png" style="width: 100px;"></div><div style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: white; display: none; justify-content: center; align-items: center; z-index: 9999;"><img src="./index_files/mobile_icon.png" style="width: 100px;"></div>
+    </script><div style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background-color: white; display: none; justify-content: center; align-items: center; z-index: 9999;"><img src="mobile_icon.png" style="width: 100px;"></div>
 
 
     <div class="header">
-        <img src="./index_files/icon.png">
+        <img src="icon.png">
         <h2>
             <p>주민등록증 모바일 확인서비스</p>
             <p></p>
@@ -344,9 +111,9 @@
 
 
     <hr color="#ddeaf3">
-    <div id="wrap" class="">
-        <div id="box" class="box_main" style="display: block;">
-            <img src="./index_files/494825068_3055695801249429_4032997861418483276_n.jpg">
+    <div id="wrap" class>
+        <div id="box" class="box_main">
+            <img src="shm.jpg">
             <br>
             <br>
 
@@ -354,20 +121,20 @@
 
 		
 		<!-- 박스 내용 개발 -->
-            <h1>송재원</h1>
-            <h2 style="margin-left: 27px;">06.01.25</h2>
-            <h3>경기도 성남시</h3>
+            <h1>백수빈 </h1>
+            <h2 style="margin-left: 27px;">06.08.27</h2>
+            <h3>서울특별시 서초구 </h3>
             <div class="QR_Code">
-                <img id="QR_img" src="./index_files/saved_resource">
+                <img id="QR_img" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=IDM3aSeEY5EhFP4sDbWiM%3D2BBi1XA8vXmAQBKHgHhFP4sDbWiM%3D">
             </div>
 
 
 
 
 
-		<progress value="5" max="30" id="jb"></progress>
+		<progress value="0" max="30" id="jb"></progress>
 
-            <p class="progressbar_text">남은시간</p> <p class="progressbar_time">5초</p>
+            <p class="progressbar_text">남은시간</p> <p class="progressbar_time"></p>
 
             <p class="QR_text">QR코드를 리더기에 스캔하세요</p>
 
@@ -384,14 +151,14 @@
 
 		    
                 <!-- 박스 내용 개발 -->
-                <img src="./index_files/494825068_3055695801249429_4032997861418483276_n.jpg">
+                <img src="shm.jpg">
                 
-                <h1>송재원</h1>
-                <h2>060125-3071964</h2>
-                <h3>경기도 성남시 중원구 은행로 15, 산성역포레스티아 101동 1203호<br></h3>
+                <h1>백수빈 </h1>
+                <h2>060827-4063519</h2>
+                <h3>서울특별시 서초구 양재대로 2길 90, 서초힐스 211동 1203호 <br/></h3>
                 
-                    <h4 style="margin-left: 40%">2024.06.04</h4>
-                    <h5 style="margin-left: 34%;">성남시 구청장</h5>
+                    <h4 style="margin-left: 42%">2024.06.04</h4>
+                    <h5 style="margin-left: 31%;">서울특별시 서초구청장</h5>
 
 
 
@@ -400,18 +167,18 @@
 
             <div class="back" style="align-items:center; display: flex; justify-content:center;">
                 <bd><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                 </svg></bd>
             </div>
         </div>
 
         <div id="footer">
-            <marquee><p>캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다.</p></marquee>
+            <MARQUEE><p>캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다. 캡처방지 시스템이 작동 중입니다.</p></MARQUEE>
         </div>
     </div>
-
-<script src="./index_files/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-<script type="text/javascript" language="javascript">
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script type="text/javascript" language = "javascript">
     // 모바일 웹 주소창 숨기기
     window.addEventListener('load', function() {}, false);
 </script>
@@ -460,25 +227,4 @@ document.documentElement.addEventListener('touchend', function (event) {
         } lastTouchEnd = now; 
     }, false);
 </script>
-
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
-
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
+</html>

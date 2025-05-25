@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta htp-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta property="og:type" content="website">
 
@@ -38,6 +39,11 @@
                 }
             });
         });
+	    if (window.navigator.standalone) {
+    console.log("App is running in fullscreen mode");
+} else {
+    console.log("App is running in Safari browser");
+}
 
         // 우측 클릭 방지
         document.onmousedown = disableclick;
